@@ -77,7 +77,7 @@ const page = () => {
               <span className="text-red-500"> Course</span> <span className="text-gray-700">of Cloud Computing</span>
             </h1>
             <p className="text-lg lg:text-xl text-gray-700 mb-8">
-              Get OUr Up-To-Date Courses online as well as onsite.
+              Get OUr Up-To-Date Courses online as well as onsite..
             </p>
             <Link
               href="/"
