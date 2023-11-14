@@ -50,10 +50,12 @@ export const Navbar = () => {
         {!toggle && (
           <div className="fixed top-0 left-0 bg-[#FFFFFF] h-screen text-black w-full flex items-center justify-center">
             <ul className=" m-7    ">
-            <li className="mx-2 text-xl  "><Link href={{ pathname: '/Female'}}>Female</Link> </li>
-    <li className="mx-2 text-xl   "><Link href={{ pathname: '/Male'}}>Male</Link> </li>
-    <li className="mx-2 text-xl "><Link href={{ pathname: '/Kids'}}>Kids</Link> </li>
-    <li className="mx-2 text-xl  "><Link href={{ pathname: '/Allproducts'}}>Allproducts</Link> </li>    
+            <li className="mx-2 font-bold text-xl  text-gray-700  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
+    <li className="mx-2 font-bold text-xl text-gray-700 "><Link href={{ pathname: '/Courses'}}>Courses</Link> </li> 
+    <li className="mx-2  font-bold  text-xl text-gray-700"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
+   
+    <li className="mx-2 font-bold text-xl text-gray-700"><Link href={{ pathname: '/'}}>Registration</Link> </li>
+    <li className="mx-2 font-bold  text-xl text-gray-700"><Link href={{ pathname: '/'}}>Contact_Us</Link> </li>    
     
             </ul>
           </div>
