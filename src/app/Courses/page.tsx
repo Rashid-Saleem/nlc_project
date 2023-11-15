@@ -25,7 +25,7 @@ const page = () => {
             </p>
             <Link
               href="/"
-              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-lg transition-all duration-300 inline-block"
+              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
             </Link>
@@ -81,7 +81,7 @@ const page = () => {
             </p>
             <Link
               href="/"
-              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-lg transition-all duration-300 inline-block"
+              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
             </Link>
@@ -109,7 +109,7 @@ const page = () => {
             </p>
             <Link
               href="/"
-              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-lg transition-all duration-300 inline-block"
+              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
             </Link>
@@ -160,6 +160,7 @@ const page = () => {
 
 <Newsletter />
 <Footer />
+{/* <Footer /> */}
 
 
 

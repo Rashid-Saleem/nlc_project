@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Newsletter = () => {
@@ -23,12 +24,12 @@ const Newsletter = () => {
               placeholder="Enter your email"
               className="w-full sm:w-3/4 px-4 py-2 rounded-md mb-4 sm:mb-0 sm:mr-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
-            <button
-              type="submit"
-              className="bg-black text-white py-2 px-6 rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-black"
+           <Link
+              href="/"
+              className="bg-red-500 hover:bg-red-600 text-white py-3 px-5 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Subscribe
-            </button>
+            </Link>
           </form>
         </div>
         <div className="absolute -z-2 font-black space-y-5  sm:text-2xl md:text-8xl lg:text-8xl opacity-10">
