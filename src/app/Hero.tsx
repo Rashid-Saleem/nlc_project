@@ -14,8 +14,8 @@ const Hero = () => {
             <p className="text-lg lg:text-xl text-gray-700 mb-8">
               Get OUr Up-To-Date Courses online as well as onsite.
             </p>
-            <Link
-              href="/"
+            <Link href={{ pathname: '/Courses'}}
+              
               className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Courses

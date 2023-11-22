@@ -14,9 +14,9 @@ const page = () => {
         <div className=' flex justify-center items-center flex-wrap h-full g-6 bg-white text-gray-800'>
           <div className=''>
             <div className='block bg-white shadow-lg rounded-lg'>
-              <div className='lg:flex lg:flex-wrap g-0'>
+              <div className='lg:flex lg:flex-wrap  sm:flex-col  g-0'>
                 <div className='px-4 md:px-0'>
-                  <div className='md:p-5 md:mx-6'>
+                  <div className='md:p-5 md:mx-6 '>
                     <div className='text-center'>
                       <h4 className='text-4xl font-bold  text-white mt-1 pt-5 pb-5 pr-25 rounded-lg pl-25  bg-[#0fa3b1] mb-5 '>
                         Registration Form 

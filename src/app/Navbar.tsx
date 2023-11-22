@@ -23,7 +23,7 @@ export const Navbar = () => {
     <li className="mx-2 font-bold text-xl  text-white  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
     <li className="mx-2 font-bold text-xl text-white "><Link href={{ pathname: '/Courses'}}>Courses</Link> </li> 
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
-   
+    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
     <li className="mx-2 font-bold text-xl text-white"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
     <li className="mx-2 font-bold  text-xl text-white"><Link href={{ pathname: '/Footer'}}>Contact_Us</Link> </li>    
            </ul>

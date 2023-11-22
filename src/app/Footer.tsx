@@ -26,11 +26,12 @@ export default function Footer() {
                     
                         <h2 className='bg-[#0fa3b1] text-white text-2xl font-semibold'>Company</h2>
                     <ul className='block pt-4 space-y-2'>
-                    <li className=' text-xl   bg-[#0fa3b1] text-white'> <Link href='#'>About </Link> </li>
-                    <li className=' bg-[#0fa3b1] text-white text-xl'><Link href='#'>Terms of Use</Link></li>
-                    <li className=' text-xl bg-[#0fa3b1] text-white '><Link href='#'>Privacy Policy</Link></li>
-                    <li className='  text-xl bg-[#0fa3b1] text-white '><Link href='#'>How It works</Link></li>
-                    <li className='  text-xl bg-[#0fa3b1] text-white '><Link href='#'>Contact Us</Link></li>
+                    <li className=' text-xl   bg-[#0fa3b1] text-white'> <Link href={{ pathname: '/Home'}}>Home </Link> </li>
+                    <li className=' bg-[#0fa3b1] text-white text-xl'><Link href={{ pathname: '/Courses'}}>Courses</Link></li>
+                    <li className=' text-xl bg-[#0fa3b1] text-white '><Link href={{ pathname: '/Campus'}}>Campus</Link></li>
+                    <li className='  text-xl bg-[#0fa3b1] text-white '><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link></li>
+                    <li className='  text-xl bg-[#0fa3b1] text-white '><Link href={{ pathname: '/Registration'}}>Registration</Link></li>
+                    <li className='  text-xl bg-[#0fa3b1] text-white '><Link href={{ pathname: '/Footer'}}>Contact Us</Link></li>
                     </ul>
 
                     </div>

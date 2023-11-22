@@ -15,6 +15,7 @@ export default function Home() {
     <Newsletter />
     <Features />
     <Footer />
+    
     </>
     
   )

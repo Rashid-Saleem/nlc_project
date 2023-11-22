@@ -44,8 +44,8 @@ const Features = () => {
             </div>
             <div className="flex place-items-start mx-10 mb-5">
               
-            <Link
-              href="/"
+            <Link href={{ pathname: '/Courses'}}
+            
               className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-lg transition-all duration-300 inline-block"
             >
               Get Courses
