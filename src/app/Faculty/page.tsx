@@ -15,7 +15,7 @@ export default function page() {
         <div className="grid gap-12 items-center sm:grid-cols-1 md:grid-cols-3 mb-0">
             <div className="space-y-4 text-center">
                 <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" 
-                    src="/img3.jpg" alt="woman" loading="lazy" width="640" height="805" />
+                    src="/IMG3.jpg" alt="woman" loading="lazy" width="640" height="805" />
                 <div>
                     <h4 className="text-2xl font-bold text-[#374151]">Mr Muhammad USman Awan</h4>
                     <span className="block font-bold text-[#374151]">HOD (IOT)</span>
