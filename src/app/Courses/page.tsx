@@ -27,7 +27,7 @@ const page = () => {
               Get OUr Up-To-Date Courses online as well as onsite.
             </p>
             <Link
-              href="/"
+             href={{ pathname: '/Registration'}}
               className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-2xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
@@ -86,7 +86,7 @@ const page = () => {
               The Duration of this course is 3 Years, Two years in Pakistan and 3rd Year in China.
             </p>
             <Link
-              href="/"
+              href={{ pathname: '/Registration'}}
               className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
@@ -114,7 +114,7 @@ const page = () => {
               Get OUr Up-To-Date Courses online as well as onsite.
             </p>
             <Link
-              href="/"
+            href={{ pathname: '/Registration'}}
               className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
             >
               Get Course
