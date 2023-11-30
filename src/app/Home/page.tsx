@@ -6,6 +6,8 @@ import Campus from '../Campus';
 import Newsletter from '../Newsletter';
 import Features from '../Features';
 import Footer from '../Footer';
+import VideoComponent from '../VideoComponent';
+import Gallery from '../Gallery';
 
 const Page = () => {
   return (
@@ -13,7 +15,9 @@ const Page = () => {
    <Navbar />
    <Hero />
    <Campus />
+   <Gallery />
    <Newsletter />
+   <VideoComponent />
    <Features />
    <Footer />
    

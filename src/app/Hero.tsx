@@ -3,6 +3,8 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
+
+<div>       
     <section className="bg-white py-3 mx-20 flex justify-center items-center">
       <div className="container mx-auto px-12">
         <div className="flex flex-col gap-10 lg:flex-row items-center justify-between">
@@ -37,6 +39,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+</div>
   );
 };
 

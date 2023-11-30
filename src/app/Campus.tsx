@@ -2,11 +2,6 @@ import Image from "next/image";
 export default function Page() {
   return (
 
-        
-
-
-
-
     <div className="bg-[#FFFFFF]">
 
           <div className="mt-6 space-y-3 sm:font-sm md:font-medium lg:font-bold sm:text-sm md:text-lg lg:text-lg  sm:text-center md:text-center lg:text-center">

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Navbar } from '../Navbar';
 import Footer from '../Footer';
 import Newsletter from '../Newsletter';
+import VideoComponent from '../VideoComponent';
 
 const page = () => {
   return (
@@ -137,10 +138,12 @@ const page = () => {
 </div>
 
 
+
         </div>
       </div>
     </section>
-
+ 
+ <VideoComponent />
 
 
 
