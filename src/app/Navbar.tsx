@@ -21,7 +21,31 @@ export const Navbar = () => {
 
           
     <li className="mx-2 font-bold text-xl  text-white  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
-    <li className="mx-2 font-bold text-xl text-white "><Link href={{ pathname: '/Courses'}}>Courses</Link> </li> 
+    <li className="group relative dropdown mx-2 px-4 text-white  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
+    
+    <ul className="absolute hidden bg-[#0fa3b1] pt-1 group-hover:block">
+          <li className="">
+            <Link
+              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              href={{ pathname: '/DAE'}}
+              >DAE</Link>
+          </li>
+          <li className="">
+          <Link
+              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              href={{ pathname: '/Tang'}}
+              >Tang china</Link>
+          </li>
+          <li className="">
+          <Link
+              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              href={{ pathname: '/Ai'}}
+              >AI</Link>          </li>
+        </ul>
+            
+    
+    </Link>
+    </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
     <li className="mx-2 font-bold text-xl text-white"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
