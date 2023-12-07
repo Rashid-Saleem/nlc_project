@@ -8,10 +8,10 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     
-        <div>       
+        <div >       
                 <div className='grid pt-3 bg-[#0fa3b1] text-white md:grid-cols-4 lg:grid-cols-4  sm:grid-cols-1  mt-2 pb-20 mx-3  '>
                 
-                <div className='block ml-10 basis-3/6   items-start '>
+                <div className='block ml-10 basis-3/6   items-start ' >
                   <Image src={"/nlc.png"} alt='logo of website' width={150} height={150} />
                   <p className='text-white bg-[#0fa3b1] pt-12 space-y-2 font-sm sm:text-sm md:text-lg lg:text-lg'>Through Hands-on trainings, we <br /> endeavor to  meet national and international standards in Technical Education.</p>
                         <div className='flex space-x-3 rounded-md pt-12'>

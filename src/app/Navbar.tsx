@@ -1,14 +1,25 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FiShoppingCart } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
+
+import 'aos/dist/aos.css';
+import Aos from "aos";
 export const Navbar = () => {
     const [toggle, setToggle] = useState(true);
-  
+
+    
+
+   
+
+
+
+
+
     return (
   
   
@@ -26,19 +37,19 @@ export const Navbar = () => {
     <ul className="absolute hidden bg-[#0fa3b1] pt-1 group-hover:block">
           <li className="">
             <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              className="rounded-t text-white hover:bg-[#0fa3b1]  text-base px-8 block whitespace-no-wrap"
               href={{ pathname: '/DAE'}}
               >DAE</Link>
           </li>
           <li className="">
           <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              className="rounded-t text-white hover:bg-[#0fa3b1]  text-center text-base  "
               href={{ pathname: '/Tang'}}
               >Tang china</Link>
           </li>
           <li className="">
           <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1] py-2 text-lg px-4 block whitespace-no-wrap"
+              className="rounded-t text-white hover:bg-[#0fa3b1] px-10 text-lg"
               href={{ pathname: '/Ai'}}
               >AI</Link>          </li>
         </ul>

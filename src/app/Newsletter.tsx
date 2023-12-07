@@ -9,11 +9,13 @@ const Newsletter = () => {
     <div className="bg-white rounded-lg shadow-lg p-8 sm:p-10 lg:p-12">
       <div className="md:flex items-center justify-between relative">
         <div className="md:w-2/3 mb-6 md:mb-0">
-          <h2 className="text-3xl sm:text-lg md:text-3xl lg:text-3xl font-semibold text-gray-800 mb-2">
+          <h2 className="text-3xl sm:text-lg md:text-3xl lg:text-3xl font-semibold text-gray-800 mb-2" data-aos="fade-left">
             Subscribe to Our Newsletter
           </h2>
 
-          <p className="text-gray-600 text-lg sm:text-lg md:text-xl lg:text-xl">
+          <p className="text-gray-600 text-lg sm:text-lg md:text-xl lg:text-xl"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             Get the latest news and updates right in your inbox. Do not miss out!
           </p>
         </div>

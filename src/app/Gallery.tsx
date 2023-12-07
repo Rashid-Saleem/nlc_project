@@ -49,8 +49,12 @@ const Gallery = () => {
   }));
 
   return (
-    <div className="w-1200 mx-2">
-        <h1 className="text-center font-bold text-5xl text-red-500 pt-2 pb-2 ">IMAGE GALLERY</h1>
+
+<div>
+
+    <h1 className="text-center font-bold text-5xl text-red-500 pt-2 pb-2 ">IMAGE GALLERY</h1>
+    <div className="w-1200 mx-2" >
+      
 
 
       <div className=" ">
@@ -96,6 +100,12 @@ const Gallery = () => {
    
    
     </div>
+
+
+
+
+          </div>
+
   );
 };
 

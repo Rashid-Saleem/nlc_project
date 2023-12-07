@@ -57,7 +57,57 @@ const Hero = () => {
   return (
 <div>
 
-<div className='max-w-[1400px] h-[780px] w-full m-auto  pt-3 pb-10 px-4 relative group'>
+<section className="bg-white py-3 mx-20 flex justify-center items-center">
+      <div className="container mx-auto px-12">
+        <div className="flex flex-col gap-10 lg:flex-row items-center justify-between">
+          <div className="lg:w-1/2  text-left">
+            <h1 className="text-4xl lg:text-6xl text-black font-bold  mb-6 sm:mb-2" data-aos="fade-right">
+              Discover the Latest 
+              <span data-aos="flip-left" className="text-red-500"> Courses</span> <span className="text-gray-700" data-aos="flip-right">Trends</span>
+            </h1>
+            <p className="text-lg lg:text-xl text-gray-700 mb-8" data-aos="flip-left">
+              Get OUr Up-To-Date Courses online as well as onsite.
+            </p>
+            <Link href={{ pathname: '/Courses'}}
+              
+              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
+            >
+              Get Courses
+            </Link>
+          </div>
+          <div className="lg:w-1/2 mt-10 lg:mt-0  lg:block">
+  <div className="relative h-96 lg:h-auto w-full" data-aos="flip-right">
+    <Image
+      src="/fworking.jpeg"
+      alt="Hero Image"
+      className="rounded-lg shadow transition duration-300 ease-in-out hover:opacity-75 hover:shadow-lg"
+      width={500}
+      height={350}
+    />
+  </div>
+</div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className='max-w-[1400px] h-[780px] w-full m-auto  pt-8 pb-10 px-4 relative group'>
 <div style={{backgroundImage:`url(${slides[currentIndex].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'></div>
 {/* Left Arrow for slider */}
 
@@ -94,42 +144,7 @@ const Hero = () => {
 
 
 
-<div>       
-    <section className="bg-white py-3 mx-20 flex justify-center items-center">
-      <div className="container mx-auto px-12">
-        <div className="flex flex-col gap-10 lg:flex-row items-center justify-between">
-          <div className="lg:w-1/2  text-left">
-            <h1 className="text-4xl lg:text-6xl text-black font-bold  mb-6 sm:mb-2">
-              Discover the Latest 
-              <span className="text-red-500"> Courses</span> <span className="text-gray-700">Trends</span>
-            </h1>
-            <p className="text-lg lg:text-xl text-gray-700 mb-8">
-              Get OUr Up-To-Date Courses online as well as onsite.
-            </p>
-            <Link href={{ pathname: '/Courses'}}
-              
-              className="bg-red-500 hover:bg-red-600 text-white py-3 px-10 rounded-full text-xl font-bold transition-all duration-300 inline-block"
-            >
-              Get Courses
-            </Link>
-          </div>
-          <div className="lg:w-1/2 mt-10 lg:mt-0  lg:block">
-  <div className="relative h-96 lg:h-auto w-full">
-    <Image
-      src="/fworking.jpeg"
-      alt="Hero Image"
-      className="rounded-lg shadow transition duration-300 ease-in-out hover:opacity-75 hover:shadow-lg"
-      width={500}
-      height={350}
-    />
-  </div>
-</div>
-
-
-        </div>
-      </div>
-    </section>
-</div>
+    
 
 
 
