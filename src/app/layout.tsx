@@ -19,7 +19,7 @@ export default function RootLayout({
 
       <head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com"  />
 
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Instrument+Serif&family=Libre+Baskerville&family=Lora:wght@700&family=Playfair+Display&family=Young+Serif&display=swap" rel="stylesheet"/>
 
