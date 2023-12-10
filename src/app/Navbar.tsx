@@ -24,32 +24,32 @@ export const Navbar = () => {
   
   
   
-      <section className="bg-[#0fa3b1] ">
+      <section className=" ">
       <div className="flex justify-between   mx-12 items-center">
       <Link href={{ pathname: '/Home'}}> <Image  src={"/nlc.png"} alt='logo of website' width={150} height={150}/></Link>
      
         <ul className=" m-7 md:flex  hidden text-[#000000]">
 
           
-    <li className="mx-2 font-bold text-xl  text-white  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
-    <li className="group relative dropdown mx-2 px-4 text-white  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
+    <li className="mx-2 font-bold text-xl  text-slate-900  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
+    <li className="group relative dropdown mx-2 px-4 text-slate-900  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
     
-    <ul className="absolute hidden bg-[#0fa3b1] pt-1 group-hover:block">
+    <ul className="absolute hidden pt-1 group-hover:block">
           <li className="">
             <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1]  text-base px-8 block whitespace-no-wrap"
+              className="rounded-t text-slate-900  text-base px-8 block whitespace-no-wrap"
               href={{ pathname: '/DAE'}}
               >DAE</Link>
           </li>
           <li className="">
           <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1]  text-center text-base  "
+              className="rounded-t text-slate-900  text-center text-base  "
               href={{ pathname: '/Tang'}}
               >Tang china</Link>
           </li>
           <li className="">
           <Link
-              className="rounded-t text-white hover:bg-[#0fa3b1] px-10 text-lg"
+              className="rounded-t text-slate-900 px-10 text-lg"
               href={{ pathname: '/Ai'}}
               >AI</Link>          </li>
         </ul>
@@ -57,10 +57,10 @@ export const Navbar = () => {
     
     </Link>
     </li>
-    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
-    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
-    <li className="mx-2 font-bold text-xl text-white"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
-    <li className="mx-2 font-bold  text-xl text-white"><Link href={{ pathname: '/Footer'}}>Contact_Us</Link> </li>    
+    <li className="mx-2  font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
+    <li className="mx-2  font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
+    <li className="mx-2 font-bold text-xl text-slate-900"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
+    <li className="mx-2 font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Footer'}}>Contact_Us</Link> </li>    
            </ul>
 
            <div className=' md:flex hidden space-x-2  items-center '>

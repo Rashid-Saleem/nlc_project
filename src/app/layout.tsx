@@ -16,6 +16,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Instrument+Serif&family=Libre+Baskerville&family=Lora:wght@700&family=Playfair+Display&family=Young+Serif&display=swap" rel="stylesheet"/>
+
+      </head>
+
+
       <body className={inter.className}>{children}</body>
     </html>
   )

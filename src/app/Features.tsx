@@ -4,7 +4,7 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <section className="hidden md:block" >
+    <section className="hidden md:block " >
       <div className="relative flex-col md:flex-wrap z-[-5] mx-20 mt-28" >
         <div className="flex md:justify-end justify-normal mr-10">
           <div className="flex-wrap text-3xl md:w-1/4 text-gray-900 font-extrabold md:-mt-16" >

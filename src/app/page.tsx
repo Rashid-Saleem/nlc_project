@@ -7,19 +7,24 @@ import Hero from './Hero'
 import Features from './Features'
 import Gallery from './Gallery'
 import VideoComponent from './VideoComponent'
+import Card from './Card'
+import Careers from './Careers'
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+     <Navbar />
     <Hero />
-    <Campus />
+    <Campus /> 
+
     <VideoComponent />
+    <Careers />
+    <Card />
     <Newsletter />
     <Gallery />
     <Features />
     <Footer />
-    
+     
     </>
     
   )
