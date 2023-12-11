@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function VideoComponent() {
   return (
-    <div className="py-20 bg-[#080415] pt-0 mt-6">
+    <div className="py-20 bg-[#080415] ">
     <div className="container mx-auto px-6 md:px-12 xl:px-32">
         <div className="mb-16 text-center">
             <h2 className="mb-4 text-center  text-6xl text-[#65A855] font-bold md:text-4xl" data-aos="flip-right">Our Vision</h2>

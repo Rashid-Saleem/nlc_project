@@ -13,7 +13,7 @@ const page = () => {
         <Navbar />
 
     
-    <section className="bg-white py-3 mx-20 flex justify-center items-center">
+    <section className="bg-white py-3 mx-20 pt-12 flex justify-center items-center">
       <div className="container mx-auto px-12">
         <div className="flex flex-col gap-10 lg:flex-row items-center justify-between">
           <div className="lg:w-1/2  text-left">

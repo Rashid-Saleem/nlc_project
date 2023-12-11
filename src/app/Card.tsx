@@ -5,7 +5,7 @@ export default function Card() {
   return (
   <div className='w-full bg-[#080415]'>#  
    {/* <div className="mb-16 text-center"> */}
-            <h2 style={{fontFamily:'Libre Baskerville', fontWeight:800 } } className="mb-4 text-center  text-6xl text-[#65A855] font-bold md:text-4xl" data-aos="flip-right">Our Services</h2>
+            <h2 style={{fontFamily:'Libre Baskerville', fontWeight:800 } } className="mb-4 text-center  text-6xl text-[#DC2626] font-bold md:text-5xl" data-aos="flip-right">Our Services</h2>
             {/* <p    style={{fontFamily:'Libre Baskerville', fontWeight:800 } } className="text-white text-xl font-semibold lg:w-8/12 lg:mx-auto" data-aos="zoom-in-up">Our Motto is to enhance the learning of new Technology so that, we could be able to present our country Internationaly</p> */}
         {/* </div> */}
   

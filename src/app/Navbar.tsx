@@ -24,20 +24,22 @@ export const Navbar = () => {
   
   
   
-      <section className=" ">
+      <section className=" bg-[#457F52]">
       <div className="flex justify-between   mx-12 items-center">
       <Link href={{ pathname: '/Home'}}> <Image  src={"/nlc.png"} alt='logo of website' width={150} height={150}/></Link>
      
-        <ul className=" m-7 md:flex  hidden text-[#000000]">
+        <ul className=" m-7 md:flex  hidden text-white">
 
           
-    <li className="mx-2 font-bold text-xl  text-slate-900  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
-    <li className="group relative dropdown mx-2 px-4 text-slate-900  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
+    <li className="mx-2 font-bold text-xl  text-white  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
+    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
+    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
+    <li className="group relative dropdown mx-2 px-4 text-white bg-[#457F52]  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
     
-    <ul className="absolute hidden pt-1 group-hover:block">
+    <ul className="absolute hidden pt-1  group-hover:block">
           <li className="">
             <Link
-              className="rounded-t text-slate-900  text-base px-8 block whitespace-no-wrap"
+              className="rounded-t text-white  text-base px-8 block whitespace-no-wrap"
               href={{ pathname: '/DAE'}}
               >DAE</Link>
           </li>
@@ -57,10 +59,10 @@ export const Navbar = () => {
     
     </Link>
     </li>
-    <li className="mx-2  font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
-    <li className="mx-2  font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
-    <li className="mx-2 font-bold text-xl text-slate-900"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
-    <li className="mx-2 font-bold  text-xl text-slate-900"><Link href={{ pathname: '/Footer'}}>Contact_Us</Link> </li>    
+
+ 
+    <li className="mx-2 font-bold text-xl text-white"><Link href={{ pathname: '/Registration'}}>Registration</Link> </li>
+    <li className="mx-2 font-bold  text-xl text-white"><Link href={{ pathname: '/Footer'}}>Contact_Us</Link> </li>    
            </ul>
 
            <div className=' md:flex hidden space-x-2  items-center '>

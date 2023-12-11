@@ -8,18 +8,22 @@ import Features from '../Features';
 import Footer from '../Footer';
 import VideoComponent from '../VideoComponent';
 import Gallery from '../Gallery';
+import Careers from '../Careers';
+import Card from '../Card';
 
 const Page = () => {
   return (
     <>
-   <Navbar />
-   <Hero />
-   <Campus />
-   <Gallery />
-   <Newsletter />
-   <VideoComponent />
-   <Features />
-   <Footer />
+     <Navbar />
+    <Hero />
+    <Campus /> 
+    <VideoComponent />
+    <Careers />
+    <Card />
+    <Newsletter />
+    <Gallery />
+    <Features />
+    <Footer />
    
    
    </>
