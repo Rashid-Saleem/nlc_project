@@ -82,7 +82,7 @@ export default function page() {
             </div>
             <div className="space-y-4 text-center">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" 
-                    src="/mmatins.jpg" alt="woman" loading="lazy" width="640" height="805" />
+                    src="/mmatins.jpg" alt="Mehboob Ilahi Image" loading="lazy" width="640" height="805" />
                 <div>
                     <h4 className="text-2xl font-bold text-[#374151]">Mr Mehboob Ilahi</h4>
                     <span className="block font-bold text-[#374151]">Instructor (MMAT)</span>
@@ -99,7 +99,7 @@ export default function page() {
             </div>
             <div className="space-y-4 text-center">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64" 
-                    src="/usmandaemechanical.jpg" alt="woman" loading="lazy" width="640" height="805" />
+                    src="/usmandaemechanical.jpg" alt="usman Image" loading="lazy" width="640" height="805" />
                 <div>
                     <h4 className="text-2xl font-bold text-[#374151]">Mr Usman</h4>
                     <span className="block font-bold text-[#374151]">Instructor (MMAT)</span>
