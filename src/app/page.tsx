@@ -13,7 +13,9 @@ import Careers from './Careers'
 export default function Home() {
   return (
     <>
-     <Navbar />
+    
+
+      <Navbar />
     <Hero />
     <Campus /> 
 
@@ -23,7 +25,7 @@ export default function Home() {
     <Newsletter />
     <Gallery />
     <Features />
-    <Footer />
+    <Footer /> 
      
     </>
     

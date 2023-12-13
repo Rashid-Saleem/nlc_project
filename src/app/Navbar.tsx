@@ -33,6 +33,7 @@ export const Navbar = () => {
           
     <li className="mx-2 font-bold text-xl  text-white  "><Link href={{ pathname: '/Home'}}>Home</Link> </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
+    <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/About'}}>About Us</Link> </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
     <li className="group relative dropdown mx-2 px-4 text-white bg-[#457F52]  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
     
