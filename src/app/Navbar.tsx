@@ -24,8 +24,8 @@ export const Navbar = () => {
   
   
   
-      <section className=" bg-[#457F52]">
-      <div className="flex justify-between   mx-12 items-center">
+      <section className=" bg-[#002147]">
+      <div className="flex justify-between mb-12  mx-12 items-center">
       <Link href={{ pathname: '/Home'}}> <Image  src={"/nlc.png"} alt='logo of website' width={150} height={150}/></Link>
      
         <ul className=" m-7 md:flex  hidden text-white">
@@ -35,7 +35,7 @@ export const Navbar = () => {
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Faculty'}}>Our Faculty</Link> </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/About'}}>About Us</Link> </li>
     <li className="mx-2  font-bold  text-xl text-white"><Link href={{ pathname: '/Campus'}}>Campus</Link> </li>
-    <li className="group relative dropdown mx-2 px-4 text-white bg-[#457F52]  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
+    <li className="group relative dropdown mx-2 px-4 text-white bg-[#002147]  cursor-pointer font-bold text-xl uppercase tracking-wide "><Link href={{ pathname: '/Courses'}}>Courses
     
     <ul className="absolute hidden pt-1  group-hover:block">
           <li className="">
