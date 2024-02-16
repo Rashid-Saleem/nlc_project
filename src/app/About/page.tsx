@@ -6,7 +6,7 @@ import Footer from '../Footer'
 export default function page() {
   return (
     <div>
-        <Navbar />
+        
         <div className='flex justify-center'>
         <Image    src={'/eng.jpg'} alt={'Principal Message'} width={500} height={150}   />
         </div>
@@ -25,7 +25,7 @@ An educational institution caters to this very important requirement. Within its
 </div>
 
 
-<Footer />
+
     </div>
   )
 }

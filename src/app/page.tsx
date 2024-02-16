@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Navbar } from './Navbar'
-import Campus from './Campus'
+
 import Footer from './Footer'
 import Newsletter from './Newsletter'
 import Hero from './Hero'
@@ -11,7 +11,7 @@ import Card from './Card'
 import Careers from './Careers'
 import Dashboard from './Dashboard'
 import TabsPage from './Tabs/page'
-import Tabcomponent from './Tabcomponent/Tabcomponent'
+
 import Tabreceive from './Tabreceive/Tabreceive'
 
 
@@ -25,18 +25,17 @@ export default function Home() {
 
 
 
-      <Navbar />
-    <Hero />
-    <Campus /> 
-
-    <VideoComponent />
+      
+   <Hero />
+    
+    {/* <VideoComponent />
     <Careers />
-    <Card />
+    <Card /> */}
     <Tabreceive title={tabarray} />
-    <Newsletter />
+    {/* <Newsletter />
     <Gallery />
-    <Features />
-    <Footer /> 
+    <Features />  */}
+     
       {/* <Dashboard /> */}
     </>
     
@@ -45,7 +44,10 @@ export default function Home() {
 
 const tabarray = [
   {
-      title: "DAE", Content: (
+      title: "DAE",
+      id:1,
+      image:"/HODmmat.jpg",
+      Content: (
           <div className='border-2 border-blue-500 rounded-lg p-5 '>
               <h1 className='text-5xl text-[#457F52]  pt-3 pb-8 font-bold  '>Diploma Of Associate Engineering</h1>
               <p className='text-white mx-20 justify-center font-semibold '>In Pakistan, the Diploma of Associate Engineer or DAE is a three-year, post-secondary (post-grade 10) diploma in various engineering disciplines such as electrical engineering, electronics engineering, civil engineering, mechanical engineering or chemical engineering.After successful completion of the diploma, students can either join Bachelor of Engineering (BE) and Bachelor of Technology (BTech) degree programs or find employment as supervisors, foremen, technicians, sub-engineers, draftsmen, overseers, chemical or gas plant operators, junior instructors or workshop superintendents.</p>

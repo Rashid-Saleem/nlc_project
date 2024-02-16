@@ -10,7 +10,7 @@ export default function page() {
   return (
     
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
 
 
           <section className='h-full  gradient-form bg-[90e0ef] '>

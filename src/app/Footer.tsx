@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     
         <div >       
-                <div className='grid pt-3 bg-[#080415] text-white md:grid-cols-4 lg:grid-cols-4  sm:grid-cols-1  mt-2  w-full '>
+                <div className='grid pt-2 bg-[#080415] text-white md:grid-cols-4 lg:grid-cols-4  sm:grid-cols-1    w-full '>
                 
                 <div className='block ml-10 basis-3/6   items-start ' >
                   <Image src={"/nlc.png"} alt='logo of website' width={150} height={150} />

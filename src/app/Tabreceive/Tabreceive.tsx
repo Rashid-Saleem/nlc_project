@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect,useState } from 'react'
 import { useRef  } from 'react'
+import Careers from '../Careers';
 const Tabreceive = ({title}:any) => {
 
     const [SelectedTab,SetSelectedTab]=useState(0);
@@ -13,9 +14,14 @@ useEffect(()=>{
 //   console.log(title)
     return (
 
-    <div className='bg-[#080415] flex justify-center items-center  pt-4 pb-4 px-28 ' >
+<div>
 
+
+
+    <div className='bg-[#080415] flex justify-center items-center  pt-4 pb-4 px-28 ' >
+   
         <div className='flex  flex-col gap-y-2  w-full '>
+        <h2 style={{fontFamily:'Libre Baskerville', fontWeight:800 } } className=" font-bold  text-center text-6xl items-center  text-[#DC2626]" data-aos="fade-right">Courses</h2>
             <div className='flex gap-15 p-4 rounded-xl  text-white text-xl bg-blue-500 justify-between items-center'>
                 {title.map((item:any,index:any)=>(
 
@@ -39,12 +45,17 @@ useEffect(()=>{
                 {title.map((item:any,index:any)=>(
                     <div className={`${SelectedTab === index ? "" : 'hidden'}`}>
                         {item.Content}
+                    
+
                     </div>
                 ))}
         
             </div>
             
         </div>
+
+    </div>
+
 
     </div>
   )

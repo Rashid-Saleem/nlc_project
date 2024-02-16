@@ -10,7 +10,7 @@ const page = () => {
 
         <div>
 
-        <Navbar />
+        {/* <Navbar /> */}
 
     
     <section className="bg-white py-3 mx-20 pt-12 flex justify-center items-center">
@@ -168,7 +168,7 @@ const page = () => {
 
 
 <Newsletter />
-<Footer />
+{/* <Footer /> */}
 {/* <Footer /> */}
 
 

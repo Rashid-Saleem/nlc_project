@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function page() {
   return (
     <div>
-<Navbar />
+{/* <Navbar /> */}
 
 <section className="bg-white py-3 mx-20 flex justify-center items-center">
       <div className="container mx-auto px-12">
@@ -195,7 +195,7 @@ For each additional application, a candidate would be required to appear in test
 	</div>
 </div>
 
-<Footer />
+{/* <Footer /> */}
     </div>
   )
 }
